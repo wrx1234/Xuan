@@ -54,7 +54,7 @@
 接下来那20%，我们以BSC（bnb链的缩写）上的 bsci铭文 为例：（bsci已经过期了，只是简单举个例子，其他铭文的方式与这个类似）
 
 1. 将钱包网络换为要打的链，此处为bsc链：
-    ![Alt text](image.png)
+    ![Alt text](image.png)  
 
 2. 这是bsci铭文在bsc链上的全部信息
    （你们应该经常看到这种字符串，这种就是铭文）：
@@ -71,34 +71,34 @@
 
 在开始铭刻前，你需要保证你能够输入16进制的信息，所以打开小狐狸钱包右上角的设置，选择高级，将显示16进制信息打开：
 
-![点击设置](image-1.png)
+![点击设置](image-1.png)  
 
-![Alt text](image-2.png)
-
-
-![Alt text](image-3.png)
+![Alt text](image-2.png)  
 
 
+![Alt text](image-3.png)  
 
-接着开始铭刻，点击发送：
 
-![Alt text](image-4.png)
 
-铭文一般都是自转，也就是将0个bnb，发送给自己，但是发送的过程中，要按照这个信息将上面的16进制填上：
+接着开始铭刻，点击发送：  
 
-![Alt text](image-5.png)
+![Alt text](image-4.png)  
 
-点击开始下一步，挥着先这个页面，点击  确认 ，他只会扣除一点点手续费：
+铭文一般都是自转，也就是将0个bnb，发送给自己，但是发送的过程中，要按照这个信息将上面的16进制填上：  
 
-![Alt text](image-6.png)
+![Alt text](image-5.png)  
 
-接着，会出现 待处理 ：
+点击开始下一步，挥着先这个页面，点击  确认 ，他只会扣除一点点手续费：  
 
-![Alt text](image-7.png)
+![Alt text](image-6.png)  
 
-然后已确认：
+接着，会出现 待处理 ：  
 
-![Alt text](image-8.png)
+![Alt text](image-7.png)  
+
+然后已确认：  
+
+![Alt text](image-8.png)  
 
 恭喜你，已经成功铭刻一枚  bsci ，当然，我写这篇攻略的时候，但由于bsci铭文已经被铭刻完了，所以是无用功，各位也请注意。
 
@@ -106,14 +106,14 @@
 
 以这个bsci为例，如果我成功了，过0.5h左右，面板数据会显示我这个地址的数据位1。
 
-面板数据我再截图举个例子，以FTM链的 fans铭文为例：
-[点击进入面板数据网址](https://dune.com/wonderful/polsinclude-contract-mint)
+面板数据我再截图举个例子，以FTM链的 fans铭文为例：  
+[点击进入面板数据网址](https://dune.com/wonderful/polsinclude-contract-mint)  
 
 
-接着钱包内换成ftm链，并且复制下来对应的钱包地址，这是你查询数据的关键：
+接着钱包内换成ftm链，并且复制下来对应的钱包地址，这是你查询数据的关键：  
 
-
-![Alt text](image-9.png)
+  
+![Alt text](image-9.png)  
 
 
 
@@ -130,9 +130,9 @@
 {"p":"bsc-20","op":"mint","tick":"bsci","amt":"1000"}
 ```
 
-3. 将复制的代码粘贴到网站上的相应位置。请注意，在该网站上不需要包含 `data:` 这一部分，其他网站可能会有所不同。
+3. 将复制的代码粘贴到网站上的相应位置。请注意，在该网站上不需要包含 `data:` 这一部分，其他网站可能会有所不同。  
 
-![Alt text](image-10.png)
+![Alt text](image-10.png)  
 
 4. 点击钱包弹出的确认按钮，开始铭刻铭文。请注意，根据链上的拥挤程度，可能会存在一定的失败概率。一般情况下，成功率约为 95%。
 
